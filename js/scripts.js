@@ -49,7 +49,7 @@ let i = 0;
 let tiempo = 0; 
 
 //Array con imagenes para el fondo
-const imagenes = ['arriba2.jpg', 'arriba.jpg' ];
+const imagenes = ['arriba.jpg', 'arriba.jpg' ];
 
 setInterval( () => {
     imagenHero.style.backgroundPositionY = '-'+tiempo+'px'; /*negativo para q incie de abajo hacia arriba, positivo la inversa */
